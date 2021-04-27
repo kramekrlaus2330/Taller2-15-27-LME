@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  body{
+    padding-left: 2%;
+    padding-right: 2%;
+    background-color: #BEC7C7;
+  }
+  nav{
+    margin-left: 20%;
+  }
+  nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+  nav li{
+      line-height: 2.5em;
+  }
+  nav a{
+      color: black;
+      display: block;
+      padding: 0 2.5em;
+      text-decoration: none;
+  }
+  nav a:hover{
+      background: #FFEB4D;
+  }
+  nav>ul{
+      width: 100%;
+  }
+  nav>ul>li{
+      float: left;
+  }
+
+  h1{
+    font-weight: 300;
+    font-family: "bello-pro";
+    text-align: center;
+    font-size: 4vw;
+    background-color: #fff;
+    opacity: 70%;
+    border: solid 5px black;
+    display: block;
+    margin: auto;
+    padding: 2%;
+    color: black;
+    font: oblique bold  helvetica;
+  }
+  .home-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .home-cards img {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+  }
+  
+  .home-cards h3 {
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  #alumnos{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        grid-gap: 20px;
+        margin-bottom: 40px;
+        margin-left: 15%;
+        margin-right: 15%;
+  }
+  table{
+      border: black solid 3px;
+      text-align: center;
+      margin-left: 32%;
+      border-collapse: collapse;
+ 
+  }
+  th{
+    background-color: white;
+    padding: 10px;
+    border: black solid 3px;
+  }
+  td{
+    border: black solid 3px;
+    padding: 10px;
+    color: white;
+    background-color: #06111C;
+  }
+  footer{
+    align-self: flex-end;
+    background-color:  #092327;
+    color: white;
+    line-height: 3;
+    text-align: center;
+    width: 100%;
+  }
